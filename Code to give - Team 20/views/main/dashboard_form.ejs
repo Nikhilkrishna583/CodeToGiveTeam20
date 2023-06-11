@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/dash-board.css">
+    
+</head>
+<body>
+     <div class="demo-page">
+  <div class="demo-page-navigation">
+    <nav>
+      <ul>
+        <li>
+          <a href="#structure">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-layers">
+              <polygon points="12 2 2 7 12 12 22 7 12 2" />
+              <polyline points="2 17 12 22 22 17" />
+              <polyline points="2 12 12 17 22 12" />
+            </svg>
+            Personal Information</a>
+        </li>
+        <li>
+          <a href="#input-types">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-align-justify">
+              <line x1="21" y1="10" x2="3" y2="10" />
+              <line x1="21" y1="6" x2="3" y2="6" />
+              <line x1="21" y1="14" x2="3" y2="14" />
+              <line x1="21" y1="18" x2="3" y2="18" />
+            </svg>
+            Contact Details</a>
+        </li>
+        <li>
+          <a href="#checkbox-and-radio">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-square">
+              <polyline points="9 11 12 14 22 4" />
+              <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" />
+            </svg>
+            Adhar details and Education</a>
+        </li>
+        <li>
+          <a href="#fieldset">
+            <svg xmlns="http://www.w3.org/2000/svg" style="transform: rotate(90deg)" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-columns">
+              <path d="M12 3h7a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-7m0-18H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h7m0-18v18" />
+            </svg>
+            Status</a>
+        </li>
+
+        <li>
+          <a href="#other">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-server">
+              <rect x="2" y="2" width="20" height="8" rx="2" ry="2" />
+              <rect x="2" y="14" width="20" height="8" rx="2" ry="2" />
+              <line x1="6" y1="6" x2="6.01" y2="6" />
+              <line x1="6" y1="18" x2="6.01" y2="18" />
+            </svg>
+            Income</a>
+        </li>
+        <li>
+          <a href="#contribute">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+            </svg>
+            Session </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <main class="demo-page-content">
+    <section>
+      <div class="href-target" id="structure"></div>
+      <h1>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-layers">
+          <polygon points="12 2 2 7 12 12 22 7 12 2" />
+          <polyline points="2 17 12 22 22 17" />
+          <polyline points="2 12 12 17 22 12" />
+        </svg>
+        Personal Information
+      </h1>
+      <p>
+         Your data safety is our utmost priority. We employ advanced security measures to protect your personal information and ensure its confidentiality
+      </p>
+
+      <div class="nice-form-group">
+        <label>Your Name</label>
+        <input type="text" placeholder="Your name" />
+      </div>
+
+      <div class="nice-form-group">
+        <label>Your Age</label>
+        <input type="number" placeholder="Age" />
+      </div>
+
+      <div class="nice-form-group">
+        <label>Gender</label>
+        <input type="text" placeholder="Male or Female" />
+        <small>Or additional text below</small>
+      </div>
+
+      <details>
+        <summary>
+
+        </summary>
+        <script src="https://gist.github.com/nielsVoogt/a00c2c8b6b7acfacce6d50926379e722.js"></script>
+      </details>
+    </section>
+
+    <section>
+      <div class="href-target" id="input-types"></div>
+      <h1>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-align-justify">
+          <line x1="21" y1="10" x2="3" y2="10" />
+          <line x1="21" y1="6" x2="3" y2="6" />
+          <line x1="21" y1="14" x2="3" y2="14" />
+          <line x1="21" y1="18" x2="3" y2="18" />
+        </svg>
+        Contact details 
+      </h1>
+      <p>All available input types are included</p>
+
+      <div class="nice-form-group">
+        <label>Mobile No</label>
+        <input type="text" placeholder="Contact no" value="" />
+      </div>
+
+      <div class="nice-form-group">
+        <label>Email</label>
+        <input type="email" placeholder="Your email" value="" />
+      </div>
+
+      <div class="nice-form-group">
+        <label>Address</label>
+        <input type="tel" placeholder="Address" value="" />
+      </div>
+
+      <details>
+        <summary>
+
+        </summary>
+        <script src="https://gist.github.com/nielsVoogt/e25c9c8f2b8456bbd1239b775d21333f.js"></script>
+      </details>
+    </section>
+
+    <section>
+      <div class="href-target" id="checkbox-and-radio"></div>
+      <h1>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-square">
+          <polyline points="9 11 12 14 22 4" />
+          <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" />
+        </svg>
+        Adhar details and education 
+      </h1>
+      <p>
+        Your data safety is our utmost priority. We employ advanced security measures to protect your personal information and ensure its confidentiality
+      </p>
+
+      <fieldset class="nice-form-group">
+        <div class="nice-form-group">
+          <label for="r-1">Adhar number</label>
+          <input type="text" name="radio" id="r-1" />
+        </div>
+
+        <div class="nice-form-group">
+          <input type="radio" name="radio" id="r-2" />
+          <label for="r-2">
+            Don't Ask Again
+            <small>You can apply for session for someone else</small>
+          </label>
+        </div>
+      </fieldset>
+
+      <fieldset class="nice-form-group">
+        <div class="nice-form-group">
+          <input type="checkbox" id="check-1" />
+          <label for="check-1">Give regular updates to my email</label>
+        </div>
+      </fieldset>
+
+      <br />
+        <div class="nice-form-group">
+        <label>Education</label>
+        <input type="email" placeholder="Education" value="" />
+      </div>
+      </fieldset>
+
+      <details>
+        <summary>
+
+        </summary>
+        <script src="https://gist.github.com/nielsVoogt/5c490e16bc1b63bba29d4ee76477f94d.js"></script>
+      </details>
+    </section>
+
+    <section>
+      <div class="href-target" id="fieldset"></div>
+      <h1>
+        <svg xmlns="http://www.w3.org/2000/svg" style="transform: rotate(90deg)" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-columns">
+          <path d="M12 3h7a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-7m0-18H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h7m0-18v18" />
+        </svg>
+        Status
+      </h1>
+      <p>
+         Our robust encryption protocols safeguard your data from unauthorized access, and we regularly update our systems to stay ahead of emerging threats
+      </p>
+
+          <div class="nice-form-group">
+        <label>Martial Status</label>
+        <input type="text" placeholder="Married or Unmarried" value="" />
+      </div>
+
+      <div class="nice-form-group">
+        <label>No of children</label>
+        <input type="number" value="" />
+      </div>
+
+      <details>
+        <summary>
+        </summary>
+        <script src="https://gist.github.com/nielsVoogt/e513d0df728dfc3fb1f5f9ecae042bf8.js"></script>
+      </details>
+    </section>
+
+    <section>
+      <div class="href-target" id="other"></div>
+      <h1>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-server">
+          <rect x="2" y="2" width="20" height="8" rx="2" ry="2" />
+          <rect x="2" y="14" width="20" height="8" rx="2" ry="2" />
+          <line x1="6" y1="6" x2="6.01" y2="6" />
+          <line x1="6" y1="18" x2="6.01" y2="18" />
+        </svg>
+        Income source
+      </h1>
+
+      <div class="nice-form-group">
+        <label>Enter your all sources of income</label>
+        <textarea rows="5" placeholder="Your message"></textarea>
+      </div>
+
+
+            <div class="nice-form-group">
+        <label>Income lower limit ( in Rs)</label>
+        <input type="number" value="" />
+      </div>
+
+
+            <div class="nice-form-group">
+        <label>Income upper Limit (in Rs)</label>
+        <input type="number" value="" />
+      </div>
+
+
+      <details>
+        <summary>
+          <div class="toggle-code">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-code">
+              <polyline points="16 18 22 12 16 6" />
+              <polyline points="8 6 2 12 8 18" />
+            </svg>
+            Submit form
+          </div>
+        </summary>
+        <script src="https://gist.github.com/nielsVoogt/f0480b1a2d0deda02138d61ec5c9f4d0.js"></script>
+      </details>
+    </section>
+
+
+    <section>
+      <div class="href-target" id="customization"></div>
+      <h1>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sliders">
+          <line x1="4" y1="21" x2="4" y2="14" />
+          <line x1="4" y1="10" x2="4" y2="3" />
+          <line x1="12" y1="21" x2="12" y2="12" />
+          <line x1="12" y1="8" x2="12" y2="3" />
+          <line x1="20" y1="21" x2="20" y2="16" />
+          <line x1="20" y1="12" x2="20" y2="3" />
+          <line x1="1" y1="14" x2="7" y2="14" />
+          <line x1="9" y1="8" x2="15" y2="8" />
+          <line x1="17" y1="16" x2="23" y2="16" />
+        </svg>
+        Session wanted to be attend
+      </h1>
+      <p>Please check the session that you interested to join with us</p>
+      <div class="nice-form-group">
+        <label>Health ( 14th July )</label>
+        <input type="text" value="" placeholder="interested or not interested"/>
+      </div><div class="nice-form-group">
+        <label>Education ( 16th July )</label>
+        <input type="text" value="" placeholder="interested or not interested"/>
+      </div><div class="nice-form-group">
+        <label>Social Awareness ( 20th June )</label>
+        <input type="text" value="" placeholder="interested or not interested"/>
+      </div><div class="nice-form-group">
+        <label>Skill Training ( 28th June )</label>
+        <input type="text" value="" placeholder="interested or not interested"/>
+      </div><div class="nice-form-group">
+        <label>Celebration ( 16th June )</label>
+        <input type="text" value="" placeholder="interested or not interested"/>
+      </div>
+    </section>
+
+
+    <footer>Made with ♥ for Code to give</footer>
+  </main>
+</div>
+<script src="/dash-board.js"></script>
+</body>
+</html>

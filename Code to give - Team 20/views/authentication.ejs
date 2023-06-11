@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Authentication - Code To Give </title>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.2.0/css/all.css'>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.2.0/css/fontawesome.css'>
+    <link rel="stylesheet" href="/authstyle.css">
+</head>
+
+<body>
+    <div class="wrapper">
+      <div class="title-text">
+        <div class="title login">Login Form</div>
+        <div class="title signup">Signup Form</div>
+      </div>
+      <div class="form-container">
+        <div class="slide-controls">
+          <input type="radio" name="slide" id="login" checked>
+          <input type="radio" name="slide" id="signup">
+          <label for="login" class="slide login">Login</label>
+          <label for="signup" class="slide signup">Signup</label>
+          <div class="slider-tab"></div>
+        </div>
+        <div class="form-inner">
+          <form action="/login" method="POST" class="login">
+            
+                
+            <div class="field">
+              <input type="text" placeholder="Username" id="email" name="username" />
+            </div>
+            <div class="field">
+              <input type="password" placeholder="Password" id="password" name="password" />
+            </div>
+            <div class="pass-link"><a href="#">Forgot password?</a></div>
+            <div class="field btn">
+              <div class="btn-layer"></div>
+              <input type="submit" value="Login">
+            </div>
+            <div class="signup-link">Not a member? <a href="">Signup now</a></div>
+          </form>
+
+
+          <form action="/register" method="POST"  class="signup">
+                
+            <div class="field">
+              <input type="text" placeholder="UserName" name="username"/>
+            </div>
+            <div class="field">
+              <input type="email" placeholder="Email" id="signup-email" name="email"/>
+            </div>
+            <div class="field">
+              <input type="password" placeholder="Password" id="signup-password" name="password" />
+            </div>
+            <div class="field btn">
+              <div class="btn-layer"></div>
+              <input type="submit" value="Signup">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+
+    <script src="/authscript.js"></script>
+</body>
+
+</html>
